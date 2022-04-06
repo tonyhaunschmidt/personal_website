@@ -1,14 +1,24 @@
 $orange: #ffa327;
 
 body, div, h1,h2, h3, h4, h5, h6, p,ul{
+  font-family: 'Iceland', cursive;
     margin: 0;
     padding: 0;
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(105, 100, 100);
     *{z-index: 2;}
 }
 
+p{
+  font-size: 20px;
+}
+
+h2{
+//  text-decoration: underline $orange;
+//  font-size: 30px;
+text-align: center;
+}
+
 .welcome {
-  font-family: 'Iceland', cursive;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -51,6 +61,65 @@ body, div, h1,h2, h3, h4, h5, h6, p,ul{
   }
 }
 
+.about{
+  padding-top: 20px;
+  div{
+    width: 60%;
+    margin: 0 auto;
+    *{
+      margin-bottom: 20px;
+    }
+    p{
+      text-align: justify;
+    }
+  }
+  img{
+    margin-top: 30px;
+    height: 60vh;
+    position: relative;
+    left: 30vw;
+  }
+}
+
+.technologies{
+  padding-top: 20px;
+  h2{
+    //margin-bottom: 50px;
+  }
+  .container{
+    width: 60%;
+    //height: 50vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    //background-color: green;
+    justify-content: space-between;
+    div{
+      //background-color: $orange;
+      margin-top: 50px;
+      margin: 50px 10px 0 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      p{
+        margin-top: 20px;
+        text-align: center;
+      }
+      i{
+      font-size: 7em;
+      &:hover{
+        color: $orange;
+      }
+      }
+    }
+  }
+  img{
+    width: 40vw;
+    margin: 0 30vw;
+  }
+}
+
 @media (max-width:500px){
   .welcome{
     //flex-direction: ;
@@ -79,8 +148,15 @@ body, div, h1,h2, h3, h4, h5, h6, p,ul{
     
     img{
       height: 80vh;
-      right: -10vw;
     }
   }
+  .about{
+    img{
+      width: 60%;
+      //position: initial;
+      height: initial;
+      
 
+    }
+  }
 }
