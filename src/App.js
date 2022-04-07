@@ -29,7 +29,6 @@ function App() {
       <section className='welcome'>
         <div>
           <h1>TONY HAUNSCHMIDT</h1>
-
           <ul>
             <li onClick={() => scrollToSection(about)}>About</li>
             <li className='divide'>|</li>
@@ -48,7 +47,7 @@ function App() {
       <section className='about' ref={about}>
         <div>
           <h2><span>---</span> About Me <span>---</span></h2>
-          <p>In my previous career in the contracts kitchen design industry I often found opportunities where I could put my self-taught spreadsheet skills to good use and practice my creativity and problem solving skills to create various tools. This increasingly became my passion and sparked my interest in software engineering.</p>
+          <p>In my previous career in the contracts kitchen design industry, I often found opportunities where I could put my self-taught spreadsheet skills to good use and practice my creativity and problem solving skills to create various tools. This increasingly became my passion and sparked my interest in software engineering.</p>
           <p>Initially learning the basics, I fell in love with coding and felt like I was discovering my superpower. I soon enrolled on a full time software engineering bootcamp with General Assembly where at a fast pace, I delved much deeper into the world of coding and began to learn the industry standards.</p>
           <p>I am extremely excited about the possibilities and challenges that this career change presents and I am very eager to be part of an industry that makes such an impact on everything we do. I am looking for opportunities where I can continue to grow and develop my skills in a fast paced environment and challenge myself.</p>
         </div>
@@ -270,7 +269,9 @@ function App() {
           </a>
         </div>
       </section>
-      <footer></footer>
+      <footer>
+        <p><span>- -</span> - - - <span>- -</span></p>
+      </footer>
     </>
   )
 }
