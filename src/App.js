@@ -4,6 +4,9 @@ import Carousel from 'react-bootstrap/Carousel'
 
 import mascot1 from './assets/mascot1.png'
 import mascot2 from './assets/mascot2.png'
+import pis from './assets/PIS.png'
+import facecook from './assets/facecook.png'
+import getmemes from './assets/getmemes.png'
 import tetris from './assets/tetris.png'
 
 function App() {
@@ -134,8 +137,120 @@ function App() {
       </section>
       <section className='projects' ref={projects}>
         <h2><span>---</span> Projects <span>---</span></h2>
-
-
+        <Carousel interval={null}>
+          <Carousel.Item>
+            <div className='img_container'>
+              <img src={pis} alt='property investment simulator' />
+            </div>
+            <Carousel.Caption>
+              <h3>The Property Investment Simulator</h3>
+              <p>My final project on the General Assembly Software Engineering Immersive course was to develop a full-stack application with an SQL back-end using Django and a React front-end in one week. Being very interested in FinTech and understanding the advantages of using an SQL database with financial data, I was gravitated to developing a game-like application where you can simulate investing in property.</p>
+              <p>I had a huge amount of fun not only playing with the game-like mechanics but structuring the data in the most useful way, working through the different functionalities of putting an offer on a property, applying for a mortgage, managing your properties and more.</p>
+              <div className='links'>
+                <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-4-PROPERTY_INVESTMENT_SIMULATOR' target='_blank' rel="noopener noreferrer">
+                  <div className='single_container'>
+                    <i class="devicon-github-original"></i>
+                  </div>
+                </a>
+                <a href='https://propertyinvestmentsimulator.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+                  <div className='link single_container'></div>
+                </a>
+              </div>
+              <div className='tech'>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-python-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-django-plain-wordmark"></i>
+                <i class="devicon-postgresql-plain"></i>
+                <i class="devicon-redis-plain"></i>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className='img_container'>
+              <img src={facecook} alt='facecook' />
+            </div>
+            <Carousel.Caption>
+              <h3>FaceCook</h3>
+              <p>My first full-stack project, as part of a group of 3, was to create a MERN Application in one week consuming from our own RESTful API made with Express. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it, including the importance of planning and what kind of pitfalls to look out for when designing your own back-end as well as developing productive ways to share and organise the workload using Trello and having daily meetings.</p>
+              <p>I adopted a role as team leader in this project and developed the initial idea and wire framing and plan for the back-end data structure. I also went on to code the search page as well as the profile pages and shopping list functionality and any additional functionality that I could implement.</p>
+              <div className='links'>
+                <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-3-FACECOOK' target='_blank' rel="noopener noreferrer">
+                  <div className='single_container'>
+                    <i class="devicon-github-original"></i>
+                  </div>
+                </a>
+                <a href='https://gafacecook.herokuapp.com/' target='_blank' rel="noopener noreferrer">
+                  <div className='link single_container'></div>
+                </a>
+              </div>
+              <div className='tech'>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-react-original"></i>
+                <i class="devicon-nodejs-plain"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-mongodb-plain"></i>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className='img_container'>
+              <img src={getmemes} alt='getmeme' />
+            </div>
+            <Carousel.Caption>
+              <h3>GetMemes</h3>
+              <p>This two day assignment was to, in a pair, create a front-end React App using a public API. As well as getting to showcase our newly learnt React and framework knowledge, this was a great project to get familiar with pair-coding, in which we agreed upon a shared vision and utilised each of our strengths and skills to realise that vision. </p>
+              <p>My main contributions to this project was mainly functionality in the form of page navigation, handling API requests and working with the data.</p>
+              <div className='links'>
+                <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-2-GETMEMES' target='_blank' rel="noopener noreferrer">
+                  <div className='single_container'>
+                    <i class="devicon-github-original"></i>
+                  </div>
+                </a>
+                <a href='https://getmeme.netlify.app/' target='_blank' rel="noopener noreferrer">
+                  <div className='link single_container'></div>
+                </a>
+              </div>
+              <div className='tech'>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-sass-original"></i>
+                <i class="devicon-html5-plain"></i>
+                <i class="devicon-react-original"></i>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className='img_container'>
+              <img src={tetris} alt='tetris' />
+            </div>
+            <Carousel.Caption>
+              <h3>Tetris</h3>
+              <p>Using Vanilla HTML, CSS and JavaScript the assignment was to build a grid based game in one week. Wanting to challenge myself and seeing it as a big step up from what we covered in the lectures I decided to recreate the classic game, Tetris. This project really solidified my fundamental JavaScript and let me flex my logic based coding skills.</p>
+              <div className='links'>
+                <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-1-TETRIS' target='_blank' rel="noopener noreferrer">
+                  <div className='single_container'>
+                    <i class="devicon-github-original"></i>
+                  </div>
+                </a>
+                <a href='https://tonyhaunschmidt.github.io/GA-PROJECT-1-TETRIS/' target='_blank' rel="noopener noreferrer">
+                  <div className='link single_container'></div>
+                </a>
+              </div>
+              <div className='tech'>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-css3-plain"></i>
+                <i class="devicon-html5-plain"></i>
+              </div>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
       </section>
       <section className='contact' ref={contact}>
         <h2><span>---</span> Contact <span>---</span></h2>
@@ -154,8 +269,8 @@ function App() {
             <div className='mail single_container'></div>
           </a>
         </div>
-
       </section>
+      <footer></footer>
     </>
   )
 }
