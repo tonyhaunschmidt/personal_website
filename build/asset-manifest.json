@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6be4d52.css",
+    "main.js": "/static/js/main.d29a3af5.js",
+    "static/media/getmemes.png": "/static/media/getmemes.06cc7b86c283a3d5abd4.png",
+    "static/media/facecook.png": "/static/media/facecook.8e26142a94de01d873f6.png",
+    "static/media/PIS.png": "/static/media/PIS.ed60689d3fadf8731a3a.png",
+    "static/media/mascot1.png": "/static/media/mascot1.fd61eddb4c1652b28ace.png",
+    "static/media/tetris.png": "/static/media/tetris.116dc3061c5c63fca1bc.png",
+    "index.html": "/index.html",
+    "main.d6be4d52.css.map": "/static/css/main.d6be4d52.css.map",
+    "main.d29a3af5.js.map": "/static/js/main.d29a3af5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6be4d52.css",
+    "static/js/main.d29a3af5.js"
+  ]
+}
