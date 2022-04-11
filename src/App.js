@@ -143,6 +143,7 @@ function App() {
             </div>
             <Carousel.Caption>
               <h3>The Property Investment Simulator</h3>
+              <p className='stats'>8 Days <span>|</span> Solo Project</p>
               <p>My final project on the General Assembly Software Engineering Immersive course was to develop a full-stack application with an SQL back-end using Django and a React front-end in one week. Being very interested in FinTech and understanding the advantages of using an SQL database with financial data, I was gravitated to developing a game-like application where you can simulate investing in property.</p>
               <p>I had a huge amount of fun not only playing with the game-like mechanics but structuring the data in the most useful way, working through the different functionalities of putting an offer on a property, applying for a mortgage, managing your properties and more.</p>
               <div className='links'>
@@ -174,6 +175,7 @@ function App() {
             </div>
             <Carousel.Caption>
               <h3>FaceCook</h3>
+              <p className='stats'>7 Days <span>|</span> Group Project (3)</p>
               <p>My first full-stack project, as part of a group of 3, was to create a MERN Application in one week consuming from our own RESTful API made with Express. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it, including the importance of planning and what kind of pitfalls to look out for when designing your own back-end as well as developing productive ways to share and organise the workload using Trello and having daily meetings.</p>
               <p>I adopted a role as team leader in this project and developed the initial idea and wire framing and plan for the back-end data structure. I also went on to code the search page as well as the profile pages and shopping list functionality and any additional functionality that I could implement.</p>
               <div className='links'>
@@ -204,6 +206,7 @@ function App() {
             </div>
             <Carousel.Caption>
               <h3>GetMemes</h3>
+              <p className='stats'>2 Days <span>|</span> Pair Project</p>
               <p>This two day assignment was to, in a pair, create a front-end React App using a public API. As well as getting to showcase our newly learnt React and framework knowledge, this was a great project to get familiar with pair-coding, in which we agreed upon a shared vision and utilised each of our strengths and skills to realise that vision. </p>
               <p>My main contributions to this project was mainly functionality in the form of page navigation, handling API requests and working with the data.</p>
               <div className='links'>
@@ -231,6 +234,7 @@ function App() {
             </div>
             <Carousel.Caption>
               <h3>Tetris</h3>
+              <p className='stats'>7 Days <span>|</span> Solo Project</p>
               <p>Using Vanilla HTML, CSS and JavaScript the assignment was to build a grid based game in one week. Wanting to challenge myself and seeing it as a big step up from what we covered in the lectures I decided to recreate the classic game, Tetris. This project really solidified my fundamental JavaScript and let me flex my logic based coding skills.</p>
               <div className='links'>
                 <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-1-TETRIS' target='_blank' rel="noopener noreferrer">

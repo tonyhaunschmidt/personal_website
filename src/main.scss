@@ -177,6 +177,12 @@ span{
       h3{
         text-decoration: underline $orange;
       }
+      .stats{
+        text-align: center;
+        span{
+          color: $orange
+        }
+      }
       p{
         text-align: justify;
       }
