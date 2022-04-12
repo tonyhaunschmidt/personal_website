@@ -176,7 +176,7 @@ function App() {
             <Carousel.Caption>
               <h3>FaceCook</h3>
               <p className='stats'>7 Days <span>|</span> Group Project (3)</p>
-              <p>My first full-stack project, as part of a group of 3, was to create a MERN Application in one week consuming from our own RESTful API made with Express. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it, including the importance of planning and what kind of pitfalls to look out for when designing your own back-end as well as developing productive ways to share and organise the workload using Trello and having daily meetings.</p>
+              <p>My first full-stack project, as part of a group of 3, was to create an application using the full MERN stack. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it, including the importance of planning and what kind of pitfalls to look out for when designing your own back-end as well as developing productive ways to share and organise the workload using Trello and having daily meetings.</p>
               <p>I adopted a role as team leader in this project and developed the initial idea and wire framing and plan for the back-end data structure. I also went on to code the search page as well as the profile pages and shopping list functionality and any additional functionality that I could implement.</p>
               <div className='links'>
                 <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-3-FACECOOK' target='_blank' rel="noopener noreferrer">
