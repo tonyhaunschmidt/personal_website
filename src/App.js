@@ -52,6 +52,13 @@ function App() {
           <p>I am extremely excited about the possibilities and challenges that this career change presents and I am very eager to be part of an industry that makes such an impact on everything we do. I am looking for opportunities where I can continue to grow and develop my skills in a fast paced environment and challenge myself.</p>
         </div>
         <img src={mascot2} alt='mascot' />
+        <div>
+          <h4><span>-</span>Interests<span>-</span></h4>
+          <p><span>Reading-</span> I'll generally read anything and everything. Can you really walk past a Waterstones and not go in?! Some of my favourites include; '1984' by George Orwell, 'Perfume' by Patrick Süskind and 'The Iron Man' by Ted Hughes. I also really enjoy Audible and love listening to books while running, hiking or out for a drive.</p>
+          <p><span>Hiking-</span> Among other things, being close to the Lake District is a big positive to living in Manchester. I recently bought an SUV that I'm intending to build a back conversion for so I can go for longer trips and enjoy car camping while doing weekend hiking trips.</p>
+          <p><span>Board Games-</span> Introduced to me a few years ago, I am still really enjoying falling deeper and deeper into the world of board games with the regular trip to the local board game cafe. I'm looking forward to attending this year's UK Games Expo in Birmingham.</p>
+
+        </div>
       </section>
       <section className='technologies' ref={technologies}>
         <h2><span>---</span> Technologies <span>---</span></h2>
