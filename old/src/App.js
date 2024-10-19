@@ -48,7 +48,11 @@ function App() {
         <div>
           <h2><span>---</span> About Me <span>---</span></h2>
           <p>In my previous career in the contracts kitchen design industry, I often found opportunities where I could put my self-taught spreadsheet skills to good use and practise my creativity and problem solving skills to create various tools. This increasingly became my passion and sparked my interest in software engineering.</p>
+<<<<<<< HEAD:old/src/App.js
           <p>Initially learning the basics, I fell in love with coding and felt like I was discovering my superpower. I soon enrolled on a full time software engineering bootcamp with General Assembly where at a fast pace, I delved much deeper into the world of coding and began to learn the industry standards.</p>
+=======
+          <p>Initially learning the basics, I fell in love with coding and felt that I was discovering my superpower. I soon enrolled on a full time software engineering bootcamp with General Assembly where at a fast pace, I delved much deeper into the world of coding and began to learn the industry standards.</p>
+>>>>>>> edbb3a86451978a92315428f680ea22183760255:src/App.js
           <p>I am extremely excited about the possibilities and challenges that this career change presents and I am very eager to be part of an industry that makes such an impact on everything we do. I am looking for opportunities where I can continue to grow and develop my skills in a fast paced environment and challenge myself.</p>
         </div>
         <img src={mascot2} alt='mascot' />
@@ -152,7 +156,7 @@ function App() {
               <h3>The Property Investment Simulator</h3>
               <p className='stats'>8 Days <span>|</span> Solo Project</p>
               <p>My final project on the General Assembly Software Engineering Immersive course was to develop a full-stack application with an SQL back-end using Django and a React front-end in one week. Being very interested in FinTech and understanding the advantages of using an SQL database with financial data, I was gravitated to developing a game-like application where you can simulate investing in property.</p>
-              <p>I had a huge amount of fun not only playing with the game-like mechanics but structuring the data in the most useful way, working through the different functionalities of putting an offer on a property, applying for a mortgage, managing your properties and more.</p>
+              <p>I had a huge amount of fun not only playing with the game-like mechanics but also structuring the data and working through the different functionalities of putting an offer on a property, applying for a mortgage, managing your properties and more.</p>
               <div className='links'>
                 <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-4-PROPERTY_INVESTMENT_SIMULATOR' target='_blank' rel="noopener noreferrer">
                   <div className='single_container'>
@@ -184,7 +188,7 @@ function App() {
               <h3>FaceCook</h3>
               <p className='stats'>7 Days <span>|</span> Group Project (3)</p>
               <p>My first full-stack project, as part of a group of 3, was to create an application using the full MERN stack. FaceCook is a social media app where you can share recipes and plan your meals. I thoroughly enjoyed this project and learnt a lot from the time spent working on it, including the importance of planning and what kind of pitfalls to look out for when designing your own back-end as well as developing productive ways to share and organise the workload using Trello and having daily meetings.</p>
-              <p>I adopted a role as team leader in this project and developed the initial idea and wire framing and plan for the back-end data structure. I also went on to code the search page as well as the profile pages and shopping list functionality and any additional functionality that I could implement.</p>
+              <p>I adopted a role as team leader in this project before developing the initial concept and plan for the back-end data structure. I then went on to code the home page, search page, profile pages, meal plan scheduler and shopping list functionality among other things.</p>
               <div className='links'>
                 <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-3-FACECOOK' target='_blank' rel="noopener noreferrer">
                   <div className='single_container'>
@@ -214,8 +218,8 @@ function App() {
             <Carousel.Caption>
               <h3>GetMemes</h3>
               <p className='stats'>2 Days <span>|</span> Pair Project</p>
-              <p>This two day assignment was to, in a pair, create a front-end React App using a public API. As well as getting to showcase our newly learnt React and framework knowledge, this was a great project to get familiar with pair-coding, in which we agreed upon a shared vision and utilised each of our strengths and skills to realise that vision. </p>
-              <p>My main contributions to this project was mainly functionality in the form of page navigation, handling API requests and working with the data.</p>
+              <p>This two day assignment was to, in a pair, create a front-end React App using a public API. GetMemes is a fun meme browser. As well as getting to showcase our newly learnt React and framework knowledge, this was a great project to get familiar with pair-coding, in which we agreed upon a shared vision and utilised each of our strengths and skills to realise that vision. </p>
+              <p>My contributions to this project was mainly functionality in the form of page navigation, handling API requests and working with the data.</p>
               <div className='links'>
                 <a href='https://github.com/tonyhaunschmidt/GA-PROJECT-2-GETMEMES' target='_blank' rel="noopener noreferrer">
                   <div className='single_container'>
