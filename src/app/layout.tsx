@@ -18,8 +18,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${roboto.className} antialiased`}>{children}</body>
+    <html className="dark" lang="en">
+      <body
+        className={`${roboto.className} text-black dark:text-white dark:bg-black ease-in-out duration-300 transition-[background-color] antialiased`}
+      >
+        <div className="transition-none duration-0 ease-linear">{children}</div>
+      </body>
     </html>
   );
 }
