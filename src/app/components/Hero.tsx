@@ -2,38 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import DarkModeToggle from "./DarkModeToggle";
+import HeroEffect from "./HeroEffect";
 
 export default function Hero() {
   return (
     <div className="h-screen w-full relative flex min-h-96 flex-col items-center justify-center">
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="w-full h-full grid grid-cols-12">
-          {Array(500)
-            .fill(null)
-            .map((n, index) => {
-              if (index === 9) {
-                return (
-                  <div
-                    key={index}
-                    className="aspect-square rounded-lg bg-primary opacity-0 hover:delay-0 delay-300 hover:opacity-100 ease-in-out duration-250 transition-all"
-                  >
-                    {/* game */}
-                  </div>
-                );
-              }
-              if (index === 0 || index === 11) {
-                return <div key={index}></div>;
-              }
-              return (
-                <div
-                  key={index}
-                  className="aspect-square rounded-lg bg-primary opacity-0 hover:delay-0 delay-300 hover:opacity-100 ease-in-out duration-250 transition-all"
-                ></div>
-              );
-            })}
-        </div>
-      </div>
-      <div className="text-center z-10 px-4 pb-10">
+      <HeroEffect />
+      <div className="text-center z-10 px-4 py-10">
         <DarkModeToggle className="absolute top-4 right-4" />
         <h1 className="font-black text-3xl sm:text-4xl leading-none">
           TONY HAUNSCHMIDT
